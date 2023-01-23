@@ -1,0 +1,121 @@
+body{
+
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    /* background-color:hsl(37, 84%, 63%); */
+    background:linear-gradient(lightskyblue,pink);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* group selector */
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#photo{
+    width: 150px;
+    border-radius: 400px;
+    border: 7px solid #efb0c9;
+}
+
+#bd-age{
+
+    background-color: #efb0c9;
+    padding: 6px 15px;
+    border-radius: 5px;
+    /* margin-bottom: 15px;
+    margin-top: 5px; */
+    margin: 5px 0px 15px 0px; 
+    /* margin shorthand */
+}
+
+#year{
+
+    background-color: #efb0c9;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.gif-section{
+
+    margin-top: 50px;
+}
+.first-line{
+ 
+    margin-top: 0px;
+    margin-bottom: 15px;
+ 
+}
+
+.hover{
+
+
+}
+
+.img-gif{
+
+    border: 4px solid black;
+    width: 400px;
+    height: 400px;
+    background-image: url("gift.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block;
+    justify-content: center;  */
+    border-radius: 9px ;
+
+}
+
+
+#gift-img-happy:hover{
+
+    background-image: url("suprise-gift.gif");
+}
+
+#gift-img-hot:hover{
+    background-image: url("gift-img-hot.gif");
+}
+
+#gift-img-genius:hover{
+    background-image: url("https://media1.giphy.com/media/K5YC2HXUjUPjDM3kjj/giphy.gif?cid=ecf05e47cd5qcfk0mds4d3v8uakkpd8nm6z4p4ziiizvb0t3&rid=giphy.gif&ct=g");
+}
+
+#gift-img-badass:hover{
+    background-image: url("gift-img-badass.gif");
+}
+
+#gift-img-cheers{
+    height: 200px;
+}
+
+
+#gift-img-cheers:hover{
+    background-image: url("https://media4.giphy.com/media/3oeSB36G9Au4V0xUhG/giphy.gif?cid=ecf05e474g3vf9v46amtnh95yp9yfy76z17tmxrpu6bbqzo7&rid=giphy.gif&ct=g");
+    height: 200px;
+}
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    /* margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto; */
+    margin:40px auto 20px;
+}
+
+a{
+    color: white;
+}
